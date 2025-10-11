@@ -86,7 +86,7 @@ const Header = ({ scrollToStories }) => {
               </Link>
               <Link to="/home" title="Home"><FiHome className="text-2xl text-[#F5E1C9] hover:text-[#D2B48C] cursor-pointer" /></Link>
             </>
-          )}
+          )} 
 
           {/* Single Login/Profile Dropdown */}
           {(isAuthenticated || isAuthenticatedSeller) ? (
