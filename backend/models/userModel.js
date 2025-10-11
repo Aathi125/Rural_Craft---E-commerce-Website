@@ -23,6 +23,7 @@ const userSchema = new mongoose.Schema({
     },
     avatar: String,
     role: { type: String, default: 'user' },
+    isActive: { type: Boolean, default: true }, // ✅ Added active status
     resetPasswordToken: String,
     resetPasswordTokenExpire: Date,
     twoFACode: String,

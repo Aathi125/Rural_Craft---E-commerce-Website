@@ -23,7 +23,7 @@ import cartRoutes from "./routes/cartRoutes.js";
 import appointmentRoutes from "./routes/appointmentRoutes.js";
 import courseRoutes from "./routes/courseRoutes.js";        // ✅ course routes
 import submissionRoutes from "./routes/submissionRoutes.js"; // ✅ submission routes
-
+import userRoutes from "./routes/userRoutes.js";
 // Import Middleware
 import errorMiddleware from "./middlewares/error.js";
 
@@ -62,7 +62,7 @@ app.use("/api/v1", sellerRoutes);
 app.use("/api/products", productRoutes);
 app.use("/api/cart", cartRoutes);
 app.use("/api/appointments", appointmentRoutes);
-
+app.use("/api/users", userRoutes);
 // ✅ Course & Submission routes
 app.use("/api/courses", courseRoutes);
 app.use("/api/submissions", submissionRoutes);

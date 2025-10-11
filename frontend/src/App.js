@@ -66,6 +66,7 @@ import SellerAnalytics from "./group/pages/SellerAnalytics";
 import BookAppointment from "./group/pages/BookAppointment";
 import SellerAppointments from './group/pages/SellerAppoinments';
 import BuyerAppointments from './group/pages/BuyerAppointments';
+import UserReport from './group/pages/UserReport';
 
 function App() {
 
@@ -288,6 +289,7 @@ function App() {
             <Route path="/create" element={<CreateCoursePage />} />
             <Route path="/manage" element={<ManageCoursesPage />} />
             <Route path="/loginEducator" element={<LoginEducator />} />    {/* ✅ Educator Login */}
+            <Route path="/user-report" element={<UserReport />} /> 
           </Routes>
           <Footer />
         </HelmetProvider>
