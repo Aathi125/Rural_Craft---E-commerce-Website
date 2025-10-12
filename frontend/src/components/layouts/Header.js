@@ -114,6 +114,7 @@ const Header = ({ scrollToStories }) => {
                 <Link to="/login" className="block px-4 py-2 text-[#F5E1C9] hover:bg-[#8C6B52] transition">Buyer Login</Link>
                 <Link to="/loginseller" className="block px-4 py-2 text-[#F5E1C9] hover:bg-[#8C6B52] transition">Seller Login</Link>
                 <Link to="/loginEducator" className="block px-4 py-2 text-[#F5E1C9] hover:bg-[#8C6B52] transition">Educator Login</Link>
+                <Link to="/adminlogin" className="block px-4 py-2 text-[#F5E1C9] hover:bg-[#8C6B52] transition">Admin Login</Link>
               </div>
             </div>
           )}

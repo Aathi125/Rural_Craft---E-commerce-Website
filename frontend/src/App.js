@@ -44,7 +44,7 @@ import Verify2FASeller from './components/User/Verify2FASeller';
 import SellerSearch from './components/SellerSearch';
 import BuyerSearch from './components/BuyerSearch';
 import LoginEducator from './components/User/LoginEducator';   // ✅ Educator Login (new)
-
+import AdminLogin from './components/User/AdminLogin';
 // group
 import HomePage from "./group/pages/HomePage";
 import ProductSection from "./group/pages/ProductSection";
@@ -66,7 +66,10 @@ import SellerAnalytics from "./group/pages/SellerAnalytics";
 import BookAppointment from "./group/pages/BookAppointment";
 import SellerAppointments from './group/pages/SellerAppoinments';
 import BuyerAppointments from './group/pages/BuyerAppointments';
-import UserReport from './group/pages/UserReport';
+import Admindashboard from './group/pages/AdminDashboard';
+import UsersDetails from './group/pages/UsersDetails';
+
+
 
 function App() {
 
@@ -289,7 +292,11 @@ function App() {
             <Route path="/create" element={<CreateCoursePage />} />
             <Route path="/manage" element={<ManageCoursesPage />} />
             <Route path="/loginEducator" element={<LoginEducator />} />    {/* ✅ Educator Login */}
-            <Route path="/user-report" element={<UserReport />} /> 
+
+             {/* ✅ Admin Login */}
+            <Route path="/adminlogin" element={<AdminLogin />} />
+            <Route path="/admindashboard" element={<Admindashboard />} />
+            <Route path="/usersdet" element={<UsersDetails />} />
           </Routes>
           <Footer />
         </HelmetProvider>
