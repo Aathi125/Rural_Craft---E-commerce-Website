@@ -88,7 +88,7 @@ RuralCraft/
 ## 🚀 How to Run the Project
 
 ### 1. Clone the repository
-git clone https://github.com/your-username/ruralcraft.git
+git clone https://github.com/Aathi125/Rural_Craft---E-commerce-Website.git
 
 
 ### 2. Run the backend
