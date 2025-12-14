@@ -1,142 +1,125 @@
-🌾 RuralCraft – Rural Vendor Marketplace System
+# 🌾 RuralCraft – Rural Vendor Marketplace System
 
-RuralCraft is a web-based application developed as a university semester project to support rural Sri Lankan manufacturers and artisans by connecting them with local and international buyers.
-The system provides a user-friendly marketplace for buyers and a dedicated management panel for sellers and administrators to manage products, orders, appointments, and learning resources efficiently.
+RuralCraft is a web based marketplace application developed as a university semester project to support rural Sri Lankan manufacturers and artisans by connecting them with local and international buyers.
 
-📌 Features
-User / Buyer Side
+The platform provides a user friendly shopping experience for buyers and a dedicated management system for sellers and administrators to manage products, orders, appointments, and learning resources efficiently.
 
-Browse rural and traditional Sri Lankan products
+---
 
-Search and filter products by category, price, region, and ratings
+## 📌 Features
 
-View detailed product information with images
+### User / Buyer Side
+- Browse rural and traditional Sri Lankan products
+- Search and filter products by category, price, region, and ratings
+- View detailed product information with images
+- Add products to wishlist and place orders
+- View reviews and ratings
+- User login and registration
 
-Add products to wishlist and place orders
+### Seller Side
+- Add, update, and delete product listings
+- Upload product images and manage categories
+- Automatic stock updates after each sale
+- Receive weekly stock availability reports
+- Manage appointment bookings with buyers
+- View sales reports and product performance
 
-View reviews and ratings
+### Admin Side
+- Admin dashboard for system management
+- Approve and monitor product listings
+- Manage users including buyers, sellers, and trainees
+- Remove non compliant or inappropriate products
+- View system wide reports and analytics
 
-User login and registration
+### Course Management
+- Enroll vendors in business development courses
+- Upload course materials such as PDFs and videos
+- Track registered learners and performance reports
 
-Seller Side
+---
 
-Add, update, and delete product listings
+## 🛠️ Technologies Used
 
-Upload product images and manage categories
+- MongoDB  
+- Express.js  
+- React.js  
+- Node.js  
+- HTML  
+- CSS  
+- JavaScript  
+- JWT Authentication  
 
-Automatic stock updates after each sale
+---
 
-Receive weekly stock availability reports
+## 🧑‍💻 My Contributions
 
-Manage appointment bookings with buyers
+- Designed and developed the Product Management System
+- Implemented seller side product listing and stock management
+- Developed search and filter functionality for buyers
+- Integrated admin moderation and approval workflow
+- Designed UI components for product display
+- Implemented weekly stock reporting logic
+- Worked with MongoDB for product related data handling
 
-View sales reports and product performance
+---
 
-Admin Side
+## 🖥️ Project Structure
 
-Admin dashboard for system management
-
-Approve and monitor product listings
-
-Manage users (buyers, sellers, trainees)
-
-Remove non-compliant or inappropriate products
-
-View system-wide reports and analytics
-
-Course Management
-
-Enroll vendors in business development courses
-
-Upload course materials (PDFs & videos)
-
-Track registered learners and performance reports
-
-🛠️ Technologies Used
-
-MongoDB
-
-Express.js
-
-React.js
-
-Node.js
-
-HTML
-
-CSS
-
-JavaScript
-
-JWT Authentication
-
-🧑‍💻 My Contributions
-
-Designed and developed the Product Management System
-
-Implemented seller-side product listing and stock management
-
-Developed search and filter functionality for buyers
-
-Integrated admin moderation and approval workflow
-
-Designed UI components for product display
-
-Implemented weekly stock reporting logic
-
-Worked with MongoDB for product-related data handling
-
-🖥️ Project Structure
 RuralCraft/
 │── backend/
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   ├── middleware/
+│ ├── controllers/
+│ ├── models/
+│ ├── routes/
+│ ├── middleware/
 │
 │── frontend/
-│   ├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── services/
+│ ├── src/
+│ ├── components/
+│ ├── pages/
+│ ├── services/
 │
 │── database/
 │── public/
 │── README.md
 
-🚀 How to Run the Project
 
-Clone the repository
+---
 
+## 🚀 How to Run the Project
+
+### 1. Clone the repository
 git clone https://github.com/your-username/ruralcraft.git
 
 
-Navigate to backend folder and install dependencies
-
+### 2. Run the backend
 cd backend
 npm install
 npm start
 
 
-Navigate to frontend folder and install dependencies
-
+### 3. Run the frontend
 cd frontend
 npm install
 npm start
 
 
-Configure MongoDB connection in environment variables
+### 4. Configure database
+- Set MongoDB connection string in environment variables
 
-Open the application in browser
-
+### 5. Open in browser
 http://localhost:3000
 
-📚 Project Type
 
-University Web Application Project
+---
+
+## 📚 Project Type
+
+University Web Application Project  
 Developed for educational and academic purposes only
 
-📩 Contact
+---
 
-For any questions or feedback, feel free to reach out.
+## 📩 Contact
+
+For any questions or feedback, feel free to reach out me atkilmdn1125@gmail.com.  
 This project was developed as part of academic learning and skill development.
