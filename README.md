@@ -92,16 +92,18 @@ git clone https://github.com/Aathi125/Rural_Craft---E-commerce-Website.git
 
 
 ### 2. Run the backend
+```bash
 cd backend
 npm install
 npm start
-
+```
 
 ### 3. Run the frontend
+```bash
 cd frontend
 npm install
 npm start
-
+```
 
 ### 4. Configure database
 - Set MongoDB connection string in environment variables
