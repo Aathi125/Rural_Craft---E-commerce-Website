@@ -5,6 +5,7 @@ RuralCraft is a web based marketplace application developed as a university seme
 The platform provides a user friendly shopping experience for buyers and a dedicated management system for sellers and administrators to manage products, orders, appointments, and learning resources efficiently.
 
 ---
+![Website Image](assets/Home.png)
 
 ## 📌 Features
 
