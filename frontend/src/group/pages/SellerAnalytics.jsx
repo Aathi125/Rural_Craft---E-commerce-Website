@@ -170,6 +170,8 @@ export default function SellerAnalyticsDashboard() {
           </div>
           {analyticsData.buyerDemographics.length > 0 ? (
             <div ref={buyerDemographicsRef} className="overflow-auto max-h-96">
+              <h1 className="text-2xl font-bold text-center mb-4">Buyer Demographics Report</h1>
+              <p className="text-center mb-4">This report provides insights into the demographics of buyers interested in your products.</p>
               <table className="min-w-full border text-left">
                 <thead className="bg-amber-50">
                   <tr>
