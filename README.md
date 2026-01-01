@@ -48,7 +48,8 @@ The platform provides a user friendly shopping experience for buyers and a dedic
 - HTML  
 - CSS  
 - JavaScript  
-- JWT Authentication  
+- JWT Authentication
+- Tailwindcss for Frontend
 
 ---
 
